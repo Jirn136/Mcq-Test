@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartGamePage">
+
+       <ImageView
+           android:paddingTop="20sp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/ic_info_black_24dp"/>
+
+        <TextView
+            android:id="@+id/txtInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Information"
+            android:textSize="20sp"
+            android:paddingLeft="42sp"
+            android:textStyle="bold"
+            android:paddingTop="20sp"/>
+
+
+<TextView
+    android:id="@+id/one"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="1) Select any one option for the question."
+    android:textSize="20sp"
+    android:layout_below="@id/txtInfo"
+    android:paddingTop="5sp"/>
+
+        <TextView
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2) No answers shown after you completing the test."
+            android:textSize="20sp"
+            android:layout_below="@+id/one"
+            android:paddingTop="5sp"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Best Of Luck"
+        android:textSize="30sp"
+        android:layout_below="@id/two"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="80sp"
+    android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnStartGame"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/buttonshape"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_below="@id/two"
+            android:layout_marginTop="230sp"
+            android:text="Start Test"/>
+
+
+
+</RelativeLayout>
